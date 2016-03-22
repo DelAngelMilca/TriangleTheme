@@ -1,0 +1,246 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+@import url(data:application/octet-streambase64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdOb3RvIFNhbnMnOwogIGZvbnQtc3R5bGU6IG5vcm1hbDsKICBmb250LXdlaWdodDogNDAwOwogIHNyYzogbG9jYWwoJ05vdG8gU2FucycpLCBsb2NhbCgnTm90b1NhbnMnKSwgdXJsKGh0dHA6Ly9mb250cy5nc3RhdGljLmNvbS9zL25vdG9zYW5zL3Y2L0xlRmxIdnNaalh1MmMzWlJnQnE5bktDV2N5bmZfY0R4WHdDTHhpaXhHMWMudHRmKSBmb3JtYXQoJ3RydWV0eXBlJyk7Cn0KQGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdOb3RvIFNhbnMnOwogIGZvbnQtc3R5bGU6IG5vcm1hbDsKICBmb250LXdlaWdodDogNzAwOwogIHNyYzogbG9jYWwoJ05vdG8gU2FucyBCb2xkJyksIGxvY2FsKCdOb3RvU2Fucy1Cb2xkJyksIHVybChodHRwOi8vZm9udHMuZ3N0YXRpYy5jb20vcy9ub3Rvc2Fucy92Ni9QSWJ2U0V5SEVkTDkxUUxPUVJuWjE0bkY1dUZkRHR0TUx2bVd1SmRoaGdzLnR0ZikgZm9ybWF0KCd0cnVldHlwZScpOwp9Cg==);
+body {
+  background: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000; }
+
+html {
+  height: 100%; }
+
+a {
+  color: #a5732a;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+  hover-outline: none;
+  hover-text-decoration: none;
+  hover-color: #dab074;
+  hover-focus-outline: none;
+  hover-focus-outline-offset: 0; }
+
+ul {
+  list-style: none; }
+
+h1, h2, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
+
+h1, h2 {
+  color: #686868; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 18px; }
+
+.overflow {
+  overflow: hidden; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.btn-common {
+  font-size: 14px;
+  color: #797979;
+  border: 1px solid #dbb075;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 10px 25px; }
+
+#action .col-sm-5 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0; }
+
+.btn-common:hover,
+.btn-common:focus {
+  outline: none;
+  background: none;
+  box-shadow: none;
+  color: #d29948; }
+
+.align-right {
+  text-align: right; }
+
+.inline {
+  display: inline-block; }
+
+.padding {
+  padding: 65px 0; }
+
+.padding-bottom {
+  padding-bottom: 65px; }
+
+.padding-top {
+  padding-top: 90px; }
+
+.padding-right {
+  padding-right: 80px; }
+
+.padding-left {
+  padding-left: 80px; }
+
+.margin-bottom {
+  margin-bottom: 35px; }
+
+#header {
+  margin-bottom: 0;
+  padding: 30px 0 60px 0; }
+  #header .navbar-inverse .container {
+    position: relative; }
+
+.social-icons ul li {
+  padding: 0 10px;
+  last-child-padding-right: 0; }
+
+.social-icons ul li a {
+  font-size: 18px;
+  color: #d3d3d3;
+  padding: 0;
+  hover-color: #dbb075;
+  hover-background: none;
+  hover-focus-color: #dbb075;
+  hover-focus-background: none; }
+
+.navbar {
+  background: #fff;
+  border: 0;
+  margin-bottom: 0; }
+  .navbar .navbar-toggle {
+    margin-top: 20px; }
+    .navbar .navbar-toggle .navbar-brand {
+      padding: 0;
+      margin-left: 0; }
+      .navbar .navbar-toggle .navbar-brand .navbar-brand h1, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 {
+        padding: 0;
+        margin: 0; }
+        .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a , .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  {
+          color: #000;
+          font-size: 12px;
+          padding: 20px;
+          text-transform: uppercase;
+          font-weight: 300; }
+          .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child {
+            margin-right: 20px; }
+            .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover {
+              color: #d29948; }
+              .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a, .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus {
+                background-color: inherit;
+                border: 0;
+                color: #d29948; }
+                .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu, .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu {
+                  display: none;
+                  list-style: none;
+                  padding: 0;
+                  margin: 0; }
+                  .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu li a, .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu li a, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu li a, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu li a {
+                    color: #818285;
+                    padding: 5px 0;
+                    font-size: 13px;
+                    display: block;
+                    text-transform: capitalize; }
+                    .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu li a li:hover, .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu li a #header .navbar-nav li ul.sub-menu li:focus, .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu li a li:hover, .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu li a #header .navbar-nav li ul.sub-menu li:focus, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu li a li:hover, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu li a #header .navbar-nav li ul.sub-menu li:focus, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu li a li:hover, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu li a #header .navbar-nav li ul.sub-menu li:focus {
+                      background: #fef7ee;
+                      color: #d29948; }
+                      .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu li a li:hover li .active, .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu li a #header .navbar-nav li ul.sub-menu li:focus li .active, .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu li a li:hover li .active, .navbar .navbar-toggle .navbar-brand .navbar-brand h1 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu li a #header .navbar-nav li ul.sub-menu li:focus li .active, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu li a li:hover li .active, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover .navbar-inverse .navbar-nav li.active > a li ul.sub-menu li a #header .navbar-nav li ul.sub-menu li:focus li .active, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu li a li:hover li .active, .navbar .navbar-toggle .navbar-brand .navbar-brand h2 .navbar-nav.navbar-right > li a  .navbar-nav.navbar-right > li:last-child .navbar-inverse .navbar-nav li a:hover #header .navbar-inverse .navbar-nav li.active > a:focus li ul.sub-menu li a #header .navbar-nav li ul.sub-menu li:focus li .active {
+                        background: #fef7ee;
+                        color: #d29948;
+                        position: relative; }
+    .navbar .navbar-toggle #header .navbar-nav li ul.sub-menu li .active i {
+      position: absolute;
+      font-size: 56px;
+      top: -13px;
+      color: #dab074; }
+    .navbar .navbar-toggle #header .navbar-nav li ul.sub-menu li .active .fa-angle-right {
+      left: -3px; }
+    .navbar .navbar-toggle #header .navbar-nav li ul.sub-menu li .active .fa-angle-left {
+      right: -3px; }
+
+#header .navbar-inverse .navbar-nav li.active > a,
+#header .navbar-inverse .navbar-nav li.active > a:focus,
+#header .navbar-nav.navbar-right li > a:hover,
+.navbar-inverse .navbar-nav > .open > a {
+  background-color: inherit;
+  border: 0;
+  color: #d29948; }
+
+.slider-house {
+  margin-left: 53%; }
+
+.slider-cloud3 {
+  margin-left: 89%;
+  margin-top: -67%; }
+
+.slider-cloud2 {
+  margin-left: 63%;
+  margin-top: -73%; }
+
+.slider-cloud1 {
+  margin-left: 73%;
+  margin-top: -48%; }
+
+.slider-sun {
+  margin-left: 77%;
+  margin-top: -78%; }
+
+.slider-circle2 {
+  margin-top: -44%; }
+
+.slider-circle1 {
+  margin-left: 59%;
+  margin-top: -40%; }
+
+.slider-cycle {
+  margin-top: -29%;
+  margin-left: 36%; }
+
+#clients .elote {
+  margin-left: 45%; }
+
+.slide-text p {
+  text-align: left justify; }
+
+#home-slider {
+  background-image: url(../images/home/slide-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px; }
+
+.service-3 {
+  margin-top: 4%; }
+
+.padding {
+  margin-top: -2.3%; }
+
+section .responsive {
+  background-image: url(../images/home/tour-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px; }
+
+form input {
+  border-color: #FA8258 !important; }
+
+textarea {
+  border-color: #FA8258 !important; }
+
+.btn .btn-submit {
+  background-color: #FA8258 !important; }
+
+.llaves {
+  color: #FA8258 !important; }
+
+/*# sourceMappingURL=main.css.map */
